@@ -1,7 +1,7 @@
 mysql:
-  host: 51.195.118.42
+  host: host
   username: root
-  password: '69haslo69!'
+  password: ''
   database: bank
   port: '3306'
   ssl: 'false'
