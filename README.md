@@ -11,6 +11,6 @@ Przelewy:
 Dane uzytkownika:
 ![image](https://user-images.githubusercontent.com/49717977/236702954-b01e7b77-3038-4f08-894b-97ee54195e4e.png)
 Po wyslaniu przelewu:
-![image](https://user-images.githubusercontent.com/49717977/236703046-9c187e8d-a97f-4f0d-824d-1ec3ebcef7bc.png)
+![image](https://user-images.githubusercontent.com/49717977/236703098-f9595020-dd74-4839-aab8-fa31391a4ae5.png)
 Otrzymana gotowka:
 ![image](https://user-images.githubusercontent.com/49717977/236703058-93939d7b-484c-4589-9e5f-4e629acef40d.png)
