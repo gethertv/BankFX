@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="560.0" prefWidth="650.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.pwste.bank.controllers.PanelController">
+   <children>
+      <AnchorPane layoutX="20.0" layoutY="14.0" prefHeight="70.0" prefWidth="610.0" style="-fx-background-color: #fff;">
+         <children>
+            <Label layoutX="25.0" layoutY="14.0" text="NUMER KONTA" />
+            <Label fx:id="nrAccount" layoutX="25.0" layoutY="31.0" prefHeight="17.0" prefWidth="483.0" text="12312312311231231231232456">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="balanceText" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="424.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="110.0" text="SALDO" textAlignment="RIGHT" />
+            <Label fx:id="balance" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="397.0" layoutY="31.0" prefHeight="23.0" prefWidth="137.0" text="1233.23 PLN">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="340.0" layoutY="30.0" mnemonicParsing="false" onAction="#copyNumberAccount" prefHeight="25.0" prefWidth="35.0" text="&gt;&lt;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="transferBox" layoutX="20.0" layoutY="104.0" prefHeight="399.0" prefWidth="610.0" style="-fx-background-color: #fff;" />
+      <Button fx:id="btnBack" layoutX="238.0" layoutY="515.0" mnemonicParsing="false" onAction="#previousPage" prefHeight="25.0" prefWidth="27.0" text="&lt;" />
+      <Button fx:id="btnNext" layoutX="385.0" layoutY="515.0" mnemonicParsing="false" onAction="#nextPage" prefHeight="25.0" prefWidth="27.0" text="&gt;" />
+      <Label fx:id="page" alignment="CENTER" layoutX="270.0" layoutY="519.0" prefHeight="17.0" prefWidth="110.0" text="Strona 1/1" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

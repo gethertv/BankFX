@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.edu.pwste.bank.controllers.DataUserController">
+   <children>
+      <Label layoutX="29.0" layoutY="37.0" prefHeight="15.0" prefWidth="83.0" text="Imie" />
+      <Label fx:id="name" layoutX="29.0" layoutY="55.0" prefHeight="27.0" prefWidth="188.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="94.0" prefHeight="15.0" prefWidth="83.0" text="Nazwisko" />
+      <Label fx:id="surname" layoutX="29.0" layoutY="111.0" prefHeight="27.0" prefWidth="188.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="146.0" prefHeight="15.0" prefWidth="83.0" text="Email" />
+      <Label fx:id="email" layoutX="29.0" layoutY="163.0" prefHeight="27.0" prefWidth="188.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="204.0" prefHeight="17.0" prefWidth="119.0" text="Numer rachunku" />
+      <Label fx:id="nrAccount" layoutX="29.0" layoutY="221.0" prefHeight="27.0" prefWidth="368.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="37.0" prefHeight="17.0" prefWidth="119.0" text="Pesel" />
+      <Label fx:id="pesel" layoutX="266.0" layoutY="55.0" prefHeight="27.0" prefWidth="149.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="146.0" prefHeight="17.0" prefWidth="119.0" text="Telefon" />
+      <Label fx:id="phone" layoutX="266.0" layoutY="163.0" prefHeight="27.0" prefWidth="149.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="94.0" prefHeight="17.0" prefWidth="119.0" text="Wiek" />
+      <Label fx:id="age" layoutX="266.0" layoutY="111.0" prefHeight="27.0" prefWidth="149.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="37.0" prefHeight="17.0" prefWidth="119.0" text="Miasto" />
+      <Label fx:id="city" layoutX="430.0" layoutY="55.0" prefHeight="27.0" prefWidth="177.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="94.0" prefHeight="17.0" prefWidth="119.0" text="Kod pocztowy" />
+      <Label fx:id="postcode" layoutX="430.0" layoutY="111.0" prefHeight="27.0" prefWidth="177.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="146.0" prefHeight="17.0" prefWidth="119.0" text="Ulica" />
+      <Label fx:id="street" layoutX="430.0" layoutY="163.0" prefHeight="27.0" prefWidth="177.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="199.0" prefHeight="17.0" prefWidth="119.0" text="Nr domu" />
+      <Label fx:id="nrHome" layoutX="430.0" layoutY="216.0" prefHeight="27.0" prefWidth="177.0" text="Imie">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

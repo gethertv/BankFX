@@ -1,0 +1,7 @@
+mysql:
+  host: localhost
+  username: root
+  password: ''
+  database: bank
+  port: '3306'
+  ssl: 'false'
